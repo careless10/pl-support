@@ -1,8 +1,12 @@
 # Support Palestine
 
-This is an repository that include code snippet for various languages, that helps you create a "Support Palestine" Badge on your website
+This is an repository that include code snippet for websites, that helps you create a "Support Palestine" Badge.
+
+The link is dynamic and can be changed to any link you want, but the current link redirect to a donation page.
 
 ## Web
+
+![Example image](web.png)
 You can paste the following html code at the top of the `<body>` tag of your website to show the badge.
 
 ```html
