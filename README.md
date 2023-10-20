@@ -3,6 +3,7 @@
 This is an repository that include code snippet for various languages, that helps you create a "Support Palestine" Badge on your website
 
 ## Web
+You can paste the following html code at the top of the `<body>` tag of your website to show the badge.
 
 ```html
 <div
