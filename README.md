@@ -14,73 +14,32 @@ You can paste the following html code at the top of the `<body>` tag of your web
 ```html
 <div
   style="
-        padding: 16px;
-        display: absolute;
-        margin-bottom:16px;
-        top: 0;
-        left: 0;
-        width: 100wh;
-        background-color: rgb(38, 22, 22);
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.198);
-        text-align: center;
-      "
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(38, 22, 22);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.198);
+    text-align: center;
+  "
 >
   <div
     style="
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          flex-wrap: wrap;
-        "
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    "
   >
     <p style="margin: 0; flex-grow: 2">
       🇵🇸 Stand with Palestine! Thousands of innocent people being murdered,
       <a
         style="color: rgb(183, 56, 56)"
-        href="https://bit.ly/save-palestine-code"
-        >Help Provide Humanitarian Aid to Palestine!.</a
-      >
-    </p>
-  </div>
-</div>
-```
-
-
-### React
-```jsx
-<div
-  style={{
-    padding: '16px',
-    position: 'absolute',
-    marginBottom: "16px",
-    top: 0,
-    left: 0,
-    width: '100wh',
-    backgroundColor: 'rgb(38, 22, 22)',
-    color: 'white',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    fontWeight: 'bold',
-    fontSize: '20px',
-    boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.198)',
-    textAlign: 'center',
-  }}
->
-  <div
-    style={{
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      flexWrap: 'wrap',
-    }}
-  >
-    <p style={{ margin: 0, flexGrow: 2 }}>
-      🇵🇸 Stand with Palestine! Thousands of innocent people being murdered,
-      <a
-        style={{ color: 'rgb(183, 56, 56)' }}
         href="https://bit.ly/save-palestine-code"
       >
         Help Provide Humanitarian Aid to Palestine!.
@@ -88,4 +47,44 @@ You can paste the following html code at the top of the `<body>` tag of your web
     </p>
   </div>
 </div>
-``````
+
+```
+
+### React
+
+```jsx
+<div
+  style={{
+    padding: "16px",
+    top: 0,
+    left: 0,
+    width: "100%",
+    backgroundColor: "rgb(38, 22, 22)",
+    color: "white",
+    fontFamily: "Arial, Helvetica, sans-serif",
+    fontWeight: "bold",
+    fontSize: "20px",
+    boxShadow: "2px 2px 2px rgba(0, 0, 0, 0.198)",
+    textAlign: "center",
+  }}
+>
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      flexWrap: "wrap",
+    }}
+  >
+    <p style={{ margin: 0, flexGrow: 2 }}>
+      🇵🇸 Stand with Palestine! Thousands of innocent people being murdered,
+      <a
+        style={{ color: "rgb(183, 56, 56)" }}
+        href="https://bit.ly/save-palestine-code"
+      >
+        Help Provide Humanitarian Aid to Palestine!.
+      </a>
+    </p>
+  </div>
+</div>
+```
